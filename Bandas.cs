@@ -9,9 +9,9 @@ namespace SimuladorElectronica
     class Bandas
     {
         private int valor;
-        private System.Drawing.Color color { get; set; }
+        private System.Drawing.Color color;
         private double multiplicador;
-        private double tolerancia { get; set; }
+        private double tolerancia;
 
         public Bandas()
         {
